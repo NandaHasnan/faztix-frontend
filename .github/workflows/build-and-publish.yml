@@ -4,7 +4,7 @@ on:
   push:
     tags: ["v*"]
 permissions:
-  package: write
+  packages: write
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
